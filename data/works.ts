@@ -5,6 +5,7 @@ import thumbnailCharacterCounter from "../public/images/works/character-counter-
 import thumbnailFeed from "../public/images/works/feeds.png";
 import thumbnailCargo from "../public/images/works/cargo-thumbnail.png";
 import thumbnailPersonalBlog from "../public/images/works/personal-blog-thumbnail.jpg";
+import thumbnailPortfolio from "../public/images/works/portfolio-thumbnail.png";
 
 type Image = {
   url: string;
@@ -174,6 +175,37 @@ export const works: Work[] = [
   },
   {
     delay: 0.5,
+    id: "portfolio",
+    title: "Portfolio (Old)",
+    thumbnail: thumbnailPortfolio,
+    year: 2026,
+    tags: ["personal project", "web app", "portfolio"],
+    images: [
+      {
+        url: "/images/works/portfolio-1.png",
+        alt: "portfolio",
+      },
+      {
+        url: "/images/works/portfolio-2.png",
+        alt: "portfolio",
+      },
+      {
+        url: "/images/works/portfolio-3.png",
+        alt: "portfolio",
+      },
+      {
+        url: "/images/works/portfolio-4.png",
+        alt: "portfolio",
+      },
+    ],
+    website: "https://bobstyle23-portfolio.vercel.app/",
+    platform: "Windows / macOS / Linux / iOS / Android",
+    stack: "Astro, React, TypeScript, TailwindCSS, Markdown / MDX",
+    description:
+      "A modern developer portfolio website built with Next.js, TypeScript, Astro-inspired content architecture, and Tailwind CSS featuring responsive layouts, project showcases, dark mode support, and performance-focused frontend design.",
+  },
+  {
+    delay: 0.6,
     id: "feeds",
     title: "Mecenate Feeds App",
     thumbnail: thumbnailFeed,

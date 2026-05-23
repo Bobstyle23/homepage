@@ -2,6 +2,7 @@ import { Badge, Container, List, ListItem, Link } from "@chakra-ui/react";
 import Layout from "./layouts/article";
 import { Meta, Title, WorkImage } from "./work";
 import Paragraph from "./paragraph";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 type WorkMetaItem = {
   label: string;
@@ -48,7 +49,7 @@ const WorkContent = ({
 
               {item.url ? (
                 <Link href={item.url} target="_blank">
-                  {item.url}
+                  Live Demo <ExternalLinkIcon mx={2} />
                 </Link>
               ) : (
                 <span>{item.value}</span>
