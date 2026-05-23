@@ -1,9 +1,7 @@
 import { Badge, Container, List, ListItem, Link } from "@chakra-ui/react";
 import Layout from "./layouts/article";
-import { Meta, Tag, Title, WorkImage } from "./work";
+import { Meta, Title, WorkImage } from "./work";
 import Paragraph from "./paragraph";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
-import NextLink from "next/link";
 
 type WorkMetaItem = {
   label: string;
