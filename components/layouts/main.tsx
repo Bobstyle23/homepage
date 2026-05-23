@@ -1,0 +1,30 @@
+import Head from "next/head";
+import { Box, Container } from "@chakra-ui/react";
+import Navbar from "../navbar";
+import VoxelDog from "../voxel-dog";
+import { ReactNode } from "react";
+import { NextRouter } from "next/router";
+
+interface Props {
+  children: ReactNode;
+  router: NextRouter;
+}
+
+const Main = ({ children, router }: Props) => {
+  return (
+    <Box as="main">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>MukhammadBobur Pakhriev - Homepage</title>
+      </Head>
+
+      <Navbar path={router.asPath} />
+      <Container maxW="container.md" pt={14}>
+        <VoxelDog />
+        {children}
+      </Container>
+    </Box>
+  );
+};
+
+export default Main;
