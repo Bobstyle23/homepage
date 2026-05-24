@@ -26,7 +26,8 @@ import {
 import { useTranslations } from "next-intl";
 
 const Page = () => {
-  const t = useTranslations("home");
+  const home = useTranslations("home");
+  const bio = useTranslations("bio");
 
   return (
     <Layout title="Home">
@@ -38,14 +39,14 @@ const Page = () => {
           mb={6}
           textAlign="center"
         >
-          Hello, I&apos;m a front-end engineer based in Uzbekistan!
+          {home("greeting")}
         </Box>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant={"page-title"}>
-              MukhammadBobur
+              {home("name")}
             </Heading>
-            <Text>Digital Nomad (Developer / Father / Enthusiast)</Text>
+            <Text>{home("role")}</Text>
           </Box>
           <Box
             flexShrink={0}
@@ -67,64 +68,55 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as={"h3"} variant={"section-title"}>
-            Work
+            {home("workTitle")}
           </Heading>
-          <Paragraph>
-            MukhammadBobur is a digital nomad navigating life through code,
-            creativity, and curiosity, building modern frontend experiences
-            while exploring new places, embracing fatherhood, and constantly
-            chasing ideas that inspire growth both professionally and
-            personally.
-          </Paragraph>
+          <Paragraph>{home("workText")}</Paragraph>
           <Box textAlign="center" my={4}>
             <NextLink href={"/works"}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                My Portfolio
+                {home("portfolioButton")}
               </Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.2}>
           <Heading as={"h3"} variant={"section-title"}>
-            Bio
+            {home("bioTitle")}
           </Heading>
           <BioSection>
             <BioYear>1996</BioYear>
-            Born in Namangan (Aksikent), Uzbekistan
+            {bio("born")}
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Completed Bachelor&apos;s Program in the Computer Science and
-            Engineering school at Sejong University (세종대학교)
+            {bio("university")}
           </BioSection>
           <BioSection>
             <BioYear>2021 ~ 2022</BioYear>
-            Started his career as a Frontend Enginner at Korean startup company
+            {bio("startup")}
           </BioSection>
           <BioSection>
             <BioYear>2022 ~ 2023</BioYear>
-            Led developing mobile & web app at Korean fintech startup company
+            {bio("fintech")}
           </BioSection>
           <BioSection>
             <BioYear>2023 ~ 2026</BioYear>
-            Worked at Hyundai, South Korea
+            {bio("hyundai")}
           </BioSection>
           <BioSection>
             <BioYear>2026 ~ </BioYear>
-            Works as a freelance
+            {bio("freelance")}
           </BioSection>
         </Section>
         <Section delay={0.3}>
           <Heading as={"h3"} variant={"section-title"}>
-            I 🤍
+            {home("interestsTitle")} 🤍
           </Heading>
-          <Paragraph>
-            Coffee, Books & Reading, Piano, Building side-projects, Driving
-          </Paragraph>
+          <Paragraph>{home("interests")}</Paragraph>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            On the web
+            {home("webTitle")}
           </Heading>
           <List>
             <ListItem>
