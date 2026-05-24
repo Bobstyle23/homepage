@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { works } from "../../data/works";
 import WorkContent from "../../components/WorkContent";
+import { GetStaticPaths, GetStaticProps } from "next";
 
 const Work = () => {
   const router = useRouter();
@@ -36,3 +37,38 @@ const Work = () => {
 };
 
 export default Work;
+
+export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
+  const paths =
+    locales?.flatMap((locale) =>
+      works.map((work) => ({
+        params: { id: work.id },
+        locale,
+      })),
+    ) ?? [];
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
+  const id = params?.id as string;
+
+  const work = works.find((item) => item.id === id);
+
+  if (!work) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      work,
+      locale,
+      messages: (await import(`../../messages/${locale}.json`)).default,
+    },
+  };
+};

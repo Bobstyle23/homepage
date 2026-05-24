@@ -1,14 +1,18 @@
 import Head from "next/head";
 import { Box, Container } from "@chakra-ui/react";
 import Navbar from "../navbar";
-import VoxelDog from "../voxel-dog";
 import { ReactNode } from "react";
 import { NextRouter } from "next/router";
+import dynamic from "next/dynamic";
 
 interface Props {
   children: ReactNode;
   router: NextRouter;
 }
+
+const VoxelDog = dynamic(() => import("@/components/voxel-dog"), {
+  ssr: false,
+});
 
 const Main = ({ children, router }: Props) => {
   return (

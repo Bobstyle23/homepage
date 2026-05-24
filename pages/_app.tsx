@@ -6,14 +6,14 @@ import Fonts from "../components/fonts";
 import { AnimatePresence } from "framer-motion";
 import { AppProps } from "next/app";
 import { NextIntlClientProvider } from "next-intl";
+import enMessages from "../messages/en.json";
 
 const Website = ({ Component, pageProps, router }: AppProps) => {
+  const locale = pageProps.locale ?? router.locale ?? "en";
+  const messages = pageProps.messages ?? enMessages;
   return (
     <ChakraProvider theme={theme}>
-      <NextIntlClientProvider
-        locale={pageProps.locale}
-        messages={pageProps.messages}
-      >
+      <NextIntlClientProvider locale={locale} messages={messages}>
         <Head>
           <title>bs23</title>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
