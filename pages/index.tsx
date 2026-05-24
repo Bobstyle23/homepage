@@ -23,7 +23,11 @@ import {
   IoLogoGithub,
   IoLogoLinkedin,
 } from "react-icons/io5";
+import { useTranslations } from "next-intl";
+
 const Page = () => {
+  const t = useTranslations("home");
+
   return (
     <Layout title="Home">
       <Container>
@@ -176,5 +180,14 @@ const Page = () => {
     </Layout>
   );
 };
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      locale,
+      messages: (await import(`../messages/${locale}.json`)).default,
+    },
+  };
+}
 
 export default Page;

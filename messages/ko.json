@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "소개",
+    "works": "작업",
+    "posts": "게시글",
+    "viewSource": "소스 보기"
+  },
+  "home": {
+    "greeting": "안녕하세요, 저는 우즈베키스탄에 기반을 둔 프론트엔드 엔지니어입니다!",
+    "name": "MukhammadBobur",
+    "role": "디지털 노마드 (개발자 / 아버지 / 열정가)",
+    "workTitle": "일",
+    "workText": "MukhammadBobur는 코드, 창의성, 호기심을 통해 삶을 탐험하는 디지털 노마드입니다. 현대적인 프론트엔드 경험을 만들고, 새로운 장소를 탐험하며, 아버지로서의 삶을 받아들이고, 전문적으로나 개인적으로 성장에 영감을 주는 아이디어를 끊임없이追구합니다.",
+    "portfolioButton": "내 포트폴리오",
+    "bioTitle": "소개",
+    "interestsTitle": "나",
+    "interests": "커피, 책과 독서, 피아노, 사이드 프로젝트 만들기, 드라이브",
+    "webTitle": "웹에서"
+  },
+  "bio": {
+    "born": "우즈베키스탄 나망간(악시켄트) 출생",
+    "university": "세종대학교 컴퓨터공학과 학사 과정 졸업",
+    "startup": "한국 스타트업에서 프론트엔드 엔지니어로 커리어 시작",
+    "fintech": "한국 핀테크 스타트업에서 모바일 및 웹 앱 개발을 리드",
+    "hyundai": "대한민국 현대에서 근무",
+    "freelance": "프리랜서로 활동 중"
+  },
+  "works": {
+    "title": "작업",
+    "tags": {
+      "personalProject": "개인 프로젝트",
+      "petProject": "토이 프로젝트",
+      "webApp": "웹 앱",
+      "clientProject": "클라이언트 프로젝트",
+      "mobileApp": "모바일 앱",
+      "portfolio": "포트폴리오"
+    },
+    "items": {
+      "gamehub": {
+        "title": "Gamehub",
+        "description": "React, TypeScript, RAWG API 연동으로 만든 현대적인 게임 탐색 플랫폼입니다. 인기 게임을 둘러보고, 장르와 플랫폼을 탐색하며, 빠른 검색과 동적 필터링 및 정렬 기능을 통해 매끄럽고 반응형인 사용자 경험을 제공합니다."
+      },
+      "personalBlog": {
+        "title": "Personal Blog",
+        "description": "HTML, SCSS, JavaScript, Gulp로 만든 현대적인 개인 블로그 플랫폼입니다. 반응형 레이아웃, 글 상세 페이지, 다크 모드 스타일링, 읽기 중심의 깔끔한 에디토리얼 UI를 제공합니다."
+      },
+      "characterCounter": {
+        "title": "Character Counter",
+        "description": "Vanilla JavaScript, HTML, SCSS, Gulp로 만든 인터랙티브 문자 수 계산 앱입니다. 실시간 텍스트 분석, 반응형 레이아웃, 현대적인 프론트엔드 워크플로우를 제공합니다."
+      },
+      "cargoDashboard": {
+        "title": "Cargo Dashboard",
+        "description": "Sarbon Cargo Dashboard는 물류 관리를 위한 현대적인 플랫폼입니다."
+      },
+      "oldPortfolio": {
+        "title": "Portfolio (Old)",
+        "description": "Next.js, TypeScript, Astro 스타일의 콘텐츠 구조, Tailwind CSS로 만든 현대적인 개발자 포트폴리오 웹사이트입니다. 반응형 레이아웃, 프로젝트 쇼케이스, 다크 모드 지원, 성능 중심의 프론트엔드 디자인을 제공합니다."
+      },
+      "mecenateFeeds": {
+        "title": "Mecenate Feeds App",
+        "description": "React Native, Expo, MobX, React Query, WebSockets로 만든 실시간 소셜 피드 앱입니다. 무한 스크롤, 낙관적 업데이트, 실시간 상호작용, 확장 가능한 모바일 아키텍처를 제공합니다."
+      }
+    }
+  },
+  "posts": {
+    "title": "인기 게시글"
+  },
+  "common": {
+    "loading": "로딩 중..."
+  }
+}

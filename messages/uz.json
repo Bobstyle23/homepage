@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "Men haqimda",
+    "works": "Ishlar",
+    "posts": "Postlar",
+    "viewSource": "Manba kodi"
+  },
+  "home": {
+    "greeting": "Salom, men O‘zbekistonda yashovchi frontend muhandisman!",
+    "name": "MukhammadBobur",
+    "role": "Digital Nomad (Dasturchi / Ota / Entuziast)",
+    "workTitle": "Ish faoliyati",
+    "workText": "MukhammadBobur — hayotni kod, ijodkorlik va qiziqish orqali o‘rganadigan digital nomad. U zamonaviy frontend tajribalarini yaratadi, yangi joylarni kashf qiladi, otalik mas’uliyatini qadrlaydi va professional hamda shaxsiy o‘sishga ilhom beradigan g‘oyalarni doim izlaydi.",
+    "portfolioButton": "Mening portfoliom",
+    "bioTitle": "Biografiya",
+    "interestsTitle": "Men",
+    "interests": "Qahva, kitoblar va o‘qish, pianino, side-projectlar yaratish, mashina haydash",
+    "webTitle": "Internetda"
+  },
+  "bio": {
+    "born": "Namangan (Aksikent), O‘zbekistonda tug‘ilgan",
+    "university": "Sejong University (세종대학교) Computer Science and Engineering yo‘nalishi bo‘yicha bakalavr dasturini tamomlagan",
+    "startup": "Karyerasini Koreyadagi startup kompaniyada Frontend Engineer sifatida boshlagan",
+    "fintech": "Koreyadagi fintech startup kompaniyada mobil va web ilova ishlab chiqishni boshqargan",
+    "hyundai": "Janubiy Koreyadagi Hyundai kompaniyasida ishlagan",
+    "freelance": "Freelancer sifatida ishlaydi"
+  },
+  "works": {
+    "title": "Ishlar",
+    "tags": {
+      "personalProject": "shaxsiy loyiha",
+      "petProject": "pet loyiha",
+      "webApp": "web ilova",
+      "clientProject": "mijoz loyihasi",
+      "mobileApp": "mobil ilova",
+      "portfolio": "portfolio"
+    },
+    "items": {
+      "gamehub": {
+        "title": "Gamehub",
+        "description": "React, TypeScript va RAWG API integratsiyasi asosida yaratilgan zamonaviy o‘yin qidirish platformasi. Unda trenddagi o‘yinlarni ko‘rish, janr va platformalarni o‘rganish, tezkor qidiruvdan foydalanish hamda qulay adaptiv filtrlash va saralash imkoniyatlari mavjud."
+      },
+      "personalBlog": {
+        "title": "Personal Blog",
+        "description": "HTML, SCSS, JavaScript va Gulp asosida yaratilgan zamonaviy shaxsiy blog platformasi. Unda adaptiv layoutlar, maqola sahifalari, dark mode uslubi va o‘qishga yo‘naltirilgan toza editorial UI mavjud."
+      },
+      "characterCounter": {
+        "title": "Character Counter",
+        "description": "Vanilla JavaScript, HTML, SCSS va Gulp asosida yaratilgan interaktiv belgilar hisoblagichi. U real vaqtda matn tahlili, adaptiv layoutlar va zamonaviy frontend workflow imkoniyatlarini taqdim etadi."
+      },
+      "cargoDashboard": {
+        "title": "Cargo Dashboard",
+        "description": "Sarbon Cargo Dashboard — logistika boshqaruvi uchun zamonaviy platforma."
+      },
+      "oldPortfolio": {
+        "title": "Portfolio (Old)",
+        "description": "Next.js, TypeScript, Astro-inspired kontent arxitekturasi va Tailwind CSS asosida yaratilgan zamonaviy dasturchi portfolio sayti. Unda adaptiv layoutlar, loyiha ko‘rgazmalari, dark mode qo‘llab-quvvatlashi va performance-focused frontend dizayn mavjud."
+      },
+      "mecenateFeeds": {
+        "title": "Mecenate Feeds App",
+        "description": "React Native, Expo, MobX, React Query va WebSockets asosida yaratilgan real-time social feed ilovasi. Unda infinite scroll, optimistic updates, live interactions va scalable mobile architecture mavjud."
+      }
+    }
+  },
+  "posts": {
+    "title": "Ommabop postlar"
+  },
+  "common": {
+    "loading": "Yuklanmoqda..."
+  }
+}

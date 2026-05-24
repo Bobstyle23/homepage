@@ -18,6 +18,8 @@ import {
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
 import { ReactNode } from "react";
+import Language from "./language";
+import { useTranslations } from "next-intl";
 
 interface LinkItemProps {
   href: string;
@@ -47,6 +49,8 @@ interface NavbarProps {
 }
 
 const Navbar = ({ path, ...props }: NavbarProps) => {
+  const t = useTranslations("nav");
+
   return (
     <Box
       position="fixed"
@@ -78,11 +82,12 @@ const Navbar = ({ path, ...props }: NavbarProps) => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            {t("works")}
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+            {t("posts")}
           </LinkItem>
+          <Language />
         </Stack>
         <Box flex={1} textAlign={"right"}>
           <ThemeToggleButton />
@@ -92,21 +97,24 @@ const Navbar = ({ path, ...props }: NavbarProps) => {
                 as={IconButton}
                 icon={<HamburgerIcon />}
                 variant="outline"
-                aria-labels="options"
+                aria-label="options"
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem>About</MenuItem>
+                  <MenuItem>{t("about")}</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem>Works</MenuItem>
+                  <MenuItem>{t("works")}</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem>Posts</MenuItem>
+                  <MenuItem>{t("posts")}</MenuItem>
                 </NextLink>
                 <NextLink href="https://github.com/Bobstyle23" passHref>
-                  <MenuItem>View Source</MenuItem>
+                  <MenuItem>{t("viewSource")}</MenuItem>
                 </NextLink>
+                <Box justifySelf={"start"} ml={3} mt={1}>
+                  <Language />
+                </Box>
               </MenuList>
             </Menu>
           </Box>

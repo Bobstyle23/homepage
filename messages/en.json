@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "About",
+    "works": "Works",
+    "posts": "Posts",
+    "viewSource": "View Source"
+  },
+  "home": {
+    "greeting": "Hello, I'm a front-end engineer based in Uzbekistan!",
+    "name": "MukhammadBobur",
+    "role": "Digital Nomad (Developer / Father / Enthusiast)",
+    "workTitle": "Work",
+    "workText": "MukhammadBobur is a digital nomad navigating life through code, creativity, and curiosity, building modern frontend experiences while exploring new places, embracing fatherhood, and constantly chasing ideas that inspire growth both professionally and personally.",
+    "portfolioButton": "My Portfolio",
+    "bioTitle": "Bio",
+    "interestsTitle": "I",
+    "interests": "Coffee, Books & Reading, Piano, Building side-projects, Driving",
+    "webTitle": "On the web"
+  },
+  "bio": {
+    "born": "Born in Namangan (Aksikent), Uzbekistan",
+    "university": "Completed Bachelor's Program in the Computer Science and Engineering school at Sejong University (세종대학교)",
+    "startup": "Started his career as a Frontend Engineer at Korean startup company",
+    "fintech": "Led developing mobile & web app at Korean fintech startup company",
+    "hyundai": "Worked at Hyundai, South Korea",
+    "freelance": "Works as a freelance"
+  },
+  "works": {
+    "title": "Works",
+    "tags": {
+      "personalProject": "personal project",
+      "petProject": "pet project",
+      "webApp": "web app",
+      "clientProject": "client project",
+      "mobileApp": "mobile app",
+      "portfolio": "portfolio"
+    },
+    "items": {
+      "gamehub": {
+        "title": "Gamehub",
+        "description": "A modern game discovery platform built with React, TypeScript, and RAWG API integration. Browse trending titles, explore genres and platforms, search games instantly, and enjoy a sleek responsive experience with dynamic filtering and sorting."
+      },
+      "personalBlog": {
+        "title": "Personal Blog",
+        "description": "A modern personal blogging platform built with HTML, SCSS, JavaScript, and Gulp featuring responsive layouts, article pages, dark mode styling, and clean editorial-focused UI design."
+      },
+      "characterCounter": {
+        "title": "Character Counter",
+        "description": "An interactive character counter application built with vanilla JavaScript, HTML, SCSS, and Gulp featuring real-time text analytics, responsive layouts, and modern frontend workflow tooling."
+      },
+      "cargoDashboard": {
+        "title": "Cargo Dashboard",
+        "description": "Sarbon Cargo Dashboard is a modern logistics management platform."
+      },
+      "oldPortfolio": {
+        "title": "Portfolio (Old)",
+        "description": "A modern developer portfolio website built with Next.js, TypeScript, Astro-inspired content architecture, and Tailwind CSS featuring responsive layouts, project showcases, dark mode support, and performance-focused frontend design."
+      },
+      "mecenateFeeds": {
+        "title": "Mecenate Feeds App",
+        "description": "A real-time social feed application built with React Native, Expo, MobX, React Query, and WebSockets featuring infinite scrolling, optimistic updates, live interactions, and scalable mobile architecture."
+      }
+    }
+  },
+  "posts": {
+    "title": "Popular Posts"
+  },
+  "common": {
+    "loading": "Loading..."
+  }
+}

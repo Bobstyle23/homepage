@@ -23,5 +23,13 @@ const Posts = () => (
   </Layout>
 );
 
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      locale,
+      messages: (await import(`../messages/${locale}.json`)).default,
+    },
+  };
+}
+
 export default Posts;
-// export { getServerSideProps } from "../components/chakra";
