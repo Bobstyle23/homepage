@@ -112,9 +112,9 @@ const Navbar = ({ path, ...props }: NavbarProps) => {
                 <NextLink href="https://github.com/Bobstyle23" passHref>
                   <MenuItem>{t("viewSource")}</MenuItem>
                 </NextLink>
-                <Box justifySelf={"start"} ml={3} mt={1}>
+                <Flex w={"100%"} justify={"flex-start"} px={3} pt={2}>
                   <Language />
-                </Box>
+                </Flex>
               </MenuList>
             </Menu>
           </Box>
