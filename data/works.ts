@@ -8,6 +8,8 @@ import thumbnailPersonalBlog from "../public/images/works/personal-blog-thumbnai
 import thumbnailPortfolio from "../public/images/works/portfolio-thumbnail.png";
 import thumbnailBankcow from "../public/images/works/bankcow-thumbnail.png";
 import thumbnailBankcowMob from "../public/images/works/bankcow-mob-3.webp";
+import thumbnailAnchors from "../public/images/works/anchors-thumbnail.png";
+import thumbnailBms from "../public/images/works/bms-thumbnail.jpg";
 
 type Image = {
   url: string;
@@ -320,8 +322,99 @@ export const works: Work[] = [
         url: "/images/works/bankcow-mob-3.webp",
         alt: "",
       },
+      {
+        url: "/images/works/bankcow-mob-4.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-5.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-6.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-7.webp",
+        alt: "",
+      },
     ],
     description:
       "A mobile fintech application for BankCow focused on Korean beef fractional investment, secure onboarding, asset tracking, investment progress, settlement status, and a polished mobile-first financial user experience.",
+  },
+  {
+    delay: 0.9,
+    id: "anchors-homepage",
+    title: "Anchors Homepage",
+    thumbnail: thumbnailAnchors,
+    website: "https://www.anchors-biz.com",
+    stack: "React, TypeScript, NextJs, SCSS/SASS",
+    tags: ["client project", "web app"],
+    year: 2023,
+    platform: "iOS / Android / Windows / MacOS / Linux",
+    images: [
+      {
+        url: "/images/works/anchors-1.png",
+        alt: "",
+      },
+      {
+        url: "/images/works/anchors-2.png",
+        alt: "",
+      },
+      {
+        url: "/images/works/anchors-3.png",
+        alt: "",
+      },
+      {
+        url: "/images/works/anchors-4.png",
+        alt: "",
+      },
+      {
+        url: "/images/works/anchors-5.png",
+        alt: "",
+      },
+      {
+        url: "/images/works/anchors-6.png",
+        alt: "",
+      },
+      {
+        url: "/images/works/anchors-7.png",
+        alt: "",
+      },
+    ],
+    description:
+      "A modern corporate platform for Anchors Inc. built with responsive frontend architecture, enterprise-focused UI systems, and scalable web experiences showcasing large-scale digital transformation, e-commerce, and enterprise solution projects.",
+  },
+
+  {
+    delay: 1,
+    id: "bms",
+    title: "Hyundai BMS",
+    year: 2024,
+    website: "https://bms.hmc.co.kr/",
+    images: [
+      {
+        url: "/images/works/bms-1.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/works/bms-2.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/works/bms-3.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/works/bms-4.jpg",
+        alt: "",
+      },
+    ],
+    thumbnail: thumbnailBms,
+    stack: "Java, React, JavaScript, CSS, TailwindCSS, Redux-thunk",
+    platform: "MacOS / Windows / Linux",
+    tags: ["client project", "web app"],
+    description:
+      "A large-scale enterprise brand management platform for Hyundai Motor Company focused on digital asset management, content distribution, internal collaboration, and scalable corporate frontend architecture.",
   },
 ];
