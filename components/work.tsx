@@ -2,6 +2,7 @@ import NextLink from "next/link";
 import { Heading, Box, Image, Link, Badge } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { ReactNode } from "react";
+import Paragraph from "./paragraph";
 
 export const Title = ({ children }: { children: ReactNode }) => (
   <Box mb={4} display="flex" alignItems={"center"} gap={1}>
@@ -27,6 +28,24 @@ export const Meta = ({ children }: { children: ReactNode }) => (
     {children}
   </Badge>
 );
+
+export const CaseStudyBlock = ({
+  title,
+  children,
+}: {
+  title: string;
+  children?: string | null;
+}) => {
+  if (!children) return null;
+  return (
+    <Box mb={6}>
+      <Heading as="h3" fontSize={20} mb={2}>
+        {title}
+      </Heading>
+      <Paragraph>{children}</Paragraph>
+    </Box>
+  );
+};
 
 export const Tag = ({ children }: { children: React.ReactNode }) => (
   <Badge colorScheme="teal" mr={2}>

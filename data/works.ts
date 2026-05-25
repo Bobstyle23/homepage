@@ -24,6 +24,11 @@ export type Work = {
   platform?: string;
   stack?: string;
   images: Image[];
+  problem?: string | null;
+  solution?: string | null;
+  tech_decisions?: string | null;
+  challenges?: string | null;
+  lessons?: string | null;
 };
 
 export const works: Work[] = [
@@ -59,6 +64,17 @@ export const works: Work[] = [
         alt: "Gamehub",
       },
     ],
+
+    problem:
+      "Game discovery platforms often feel overloaded or difficult to browse. I wanted to create a clean interface where users can quickly discover games by genre, platform, rating, and search.",
+    solution:
+      "I built a responsive React application with filtering, sorting, API integration, loading states, and clean project structure to make browsing games simple and enjoyable.",
+    tech_decisions:
+      "React and TypeScript were used for reliable UI development, while RAWG API powered the game data. I focused on reusable components, typed API responses, and responsive layouts.",
+    challenges:
+      "The main challenge was keeping filters, search, loading states, and API data predictable without making the UI feel slow or cluttered.",
+    lessons:
+      "This project improved my understanding of API-driven UI, reusable component architecture, and practical frontend performance decisions.",
     description:
       "A modern game discovery platform built with React, TypeScript, and RAWG API integration. Browse trending titles, explore genres and platforms, search games instantly, and enjoy a sleek responsive experience with dynamic filtering and sorting",
   },
