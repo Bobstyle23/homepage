@@ -7,6 +7,7 @@ import { AnimatePresence } from "framer-motion";
 import { AppProps } from "next/app";
 import { NextIntlClientProvider } from "next-intl";
 import enMessages from "../messages/en.json";
+import CommandPalette from "@/components/command-palette";
 
 const Website = ({ Component, pageProps, router }: AppProps) => {
   const locale = pageProps.locale ?? router.locale ?? "en";
@@ -19,6 +20,7 @@ const Website = ({ Component, pageProps, router }: AppProps) => {
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         </Head>
         <Fonts />
+        <CommandPalette />
         <Layout router={router}>
           <AnimatePresence mode="wait" initial={true}>
             <Component {...pageProps} key={router.route} />
