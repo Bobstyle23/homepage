@@ -7,24 +7,7 @@ import {
 } from "@chakra-ui/react";
 import { now } from "@/data/now";
 
-const items = [
-  {
-    label: "📍 Location",
-    value: now.location,
-  },
-  {
-    label: "🛠 Building",
-    value: now.building,
-  },
-  {
-    label: "📚 Learning",
-    value: now.learning,
-  },
-  {
-    label: "☕ Mood",
-    value: now.mood,
-  },
-];
+const currently = Object.values(now).filter((item) => item.value);
 
 const NowSection = () => {
   const cardBg = useColorModeValue("whiteAlpha.700", "whiteAlpha.100");
@@ -41,7 +24,7 @@ const NowSection = () => {
       </Text>
 
       <SimpleGrid columns={[1, 2]} gap={4}>
-        {items.map((item) => (
+        {currently.map((item) => (
           <Box
             key={item.label}
             p={4}
