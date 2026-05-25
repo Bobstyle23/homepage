@@ -4,13 +4,15 @@ import { WorkGridItem } from "../components/grid-item";
 import Layout from "../components/layouts/article";
 import { Tag } from "../components/work";
 import { works } from "../data/works";
+import { useTranslations } from "next-intl";
 
 const Works = () => {
+  const t = useTranslations("works");
   return (
     <Layout title="Works">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          {t("title")}
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           {works.map((work) => (

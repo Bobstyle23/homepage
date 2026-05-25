@@ -1,32 +1,32 @@
 {
   "nav": {
-    "about": "Men haqimda",
-    "works": "Ishlar",
-    "posts": "Postlar",
-    "viewSource": "Manba kodi"
+    "about": "Tanishtiruv",
+    "works": "Ishlarim",
+    "posts": "Postlarim",
+    "viewSource": "Kodlar manbai"
   },
   "home": {
-    "greeting": "Salom, men O‘zbekistonda yashovchi frontend muhandisman!",
-    "name": "MukhammadBobur",
-    "role": "Digital Nomad (Dasturchi / Ota / Entuziast)",
+    "greeting": "Assalomu Alaykum, men asli O'zbekistonlik frontend dasturchiman!",
+    "name": "MuxammadBobur",
+    "role": "Raqamli Ko'chmanchi (Dasturchi / Ota / Ishqiboz)",
     "workTitle": "Ish faoliyati",
-    "workText": "MukhammadBobur — hayotni kod, ijodkorlik va qiziqish orqali o‘rganadigan digital nomad. U zamonaviy frontend tajribalarini yaratadi, yangi joylarni kashf qiladi, otalik mas’uliyatini qadrlaydi va professional hamda shaxsiy o‘sishga ilhom beradigan g‘oyalarni doim izlaydi.",
-    "portfolioButton": "Mening portfoliom",
+    "workText": "MuxammadBobur — hayotni kod, ijodkorlik va qiziqish orqali o‘rganadigan raqamli ko'chmanchi. U zamonaviy frontend tajribalarini ixtiro qiladi, yangi joylarni kashf qiladi, otalik mas’uliyatini qadrlaydi va professional hamda shaxsiy o‘sishga ilhom beradigan g‘oyalarni doim izlaydi.",
+    "portfolioButton": "Mening ishlarim",
     "bioTitle": "Biografiya",
     "interestsTitle": "Men",
-    "interests": "Qahva, kitoblar va o‘qish, pianino, side-projectlar yaratish, mashina haydash",
-    "webTitle": "Internetda"
+    "interests": "Qahva, yangi kitoblar va ularni o‘qish, pianino, katta va kichik bo'lgan loyihalar ustida ishlash, mashina haydash",
+    "webTitle": "Ijtimoiy tarmoqlarda men"
   },
   "bio": {
-    "born": "Namangan (Aksikent), O‘zbekistonda tug‘ilgan",
-    "university": "Sejong University (세종대학교) Computer Science and Engineering yo‘nalishi bo‘yicha bakalavr dasturini tamomlagan",
-    "startup": "Karyerasini Koreyadagi startup kompaniyada Frontend Engineer sifatida boshlagan",
+    "born": "Namangan (Axsi), O‘zbekistonda tug‘ilgan",
+    "university": "Sejong Universiteti (세종대학교) Informatika and Muhandislik yo‘nalishi bo‘yicha bakalavr dasturini tamomlagan",
+    "startup": "Karyerasini Koreyadagi startup kompaniyada Frontend Dasturchi sifatida boshlagan",
     "fintech": "Koreyadagi fintech startup kompaniyada mobil va web ilova ishlab chiqishni boshqargan",
     "hyundai": "Janubiy Koreyadagi Hyundai kompaniyasida ishlagan",
-    "freelance": "Freelancer sifatida ishlaydi"
+    "freelance": "Frilanser sifatida ishlaydi"
   },
   "works": {
-    "title": "Ishlar",
+    "title": "Mening Ishlarim",
     "tags": {
       "personalProject": "shaxsiy loyiha",
       "petProject": "pet loyiha",
