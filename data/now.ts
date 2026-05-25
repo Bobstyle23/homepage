@@ -1,12 +1,12 @@
 export const now = {
-  location: { label: "📍 Location", value: "Tashkent, Uzbekistan" },
+  location: { label: "📍 Location", value: "Namangan, Uzbekistan" },
   lookingFor: {
     label: "👀 Looking for",
     value: "A good company with complex problems to help them solve",
   },
   building: {
     label: "🛠 Building",
-    value: "Fullstack SaaS for businesses to help ease accounting",
+    value: "Fullstack SaaS for businesses to ease accounting",
   },
   learning: {
     label: "📚 Learning",

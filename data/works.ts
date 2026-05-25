@@ -226,33 +226,6 @@ export const works: Work[] = [
   },
   {
     delay: 0.6,
-    id: "feeds",
-    title: "Mecenate Feeds App",
-    thumbnail: thumbnailFeed,
-    tags: ["client project", "mobile app"],
-    year: 2026,
-    images: [
-      {
-        url: "/images/works/feeds.png",
-        alt: "gamehub",
-      },
-      {
-        url: "/images/works/feeds-1.png",
-        alt: "gamehub",
-      },
-      {
-        url: "/images/works/feeds-2.png",
-        alt: "gamehub",
-      },
-    ],
-    platform: "iOS / Android",
-    stack:
-      "TypeScript, React-Native, WebSocket, React-Query, Expo, Haptics, Blur, MobX",
-    description:
-      "A real-time social feed application built with React Native, Expo, MobX, React Query, and WebSockets featuring infinite scrolling, optimistic updates, live interactions, and scalable mobile architecture.",
-  },
-  {
-    delay: 0.7,
     id: "bankcow-web",
     title: "Bankcow Homepage",
     thumbnail: thumbnailBankcow,
@@ -298,52 +271,9 @@ export const works: Work[] = [
     description:
       "A modern fintech landing platform for BankCow built with responsive frontend architecture, interactive UI sections, and conversion-focused design emphasizing modern web experiences and polished user interaction.",
   },
+
   {
-    delay: 0.8,
-    id: "bankcow-mobile",
-    title: "Bankcow Mobile App",
-    thumbnail: thumbnailBankcowMob,
-    tags: ["client project", "mobile app"],
-    year: 2022,
-    website:
-      "https://apps.apple.com/kr/app/%EB%B1%85%EC%B9%B4%EC%9A%B0-bankcow/id1588858780",
-    platform: "iOS / Android",
-    stack: "React-Native, TypeScript",
-    images: [
-      {
-        url: "/images/works/bankcow-mob-1.webp",
-        alt: "",
-      },
-      {
-        url: "/images/works/bankcow-mob-2.webp",
-        alt: "",
-      },
-      {
-        url: "/images/works/bankcow-mob-3.webp",
-        alt: "",
-      },
-      {
-        url: "/images/works/bankcow-mob-4.webp",
-        alt: "",
-      },
-      {
-        url: "/images/works/bankcow-mob-5.webp",
-        alt: "",
-      },
-      {
-        url: "/images/works/bankcow-mob-6.webp",
-        alt: "",
-      },
-      {
-        url: "/images/works/bankcow-mob-7.webp",
-        alt: "",
-      },
-    ],
-    description:
-      "A mobile fintech application for BankCow focused on Korean beef fractional investment, secure onboarding, asset tracking, investment progress, settlement status, and a polished mobile-first financial user experience.",
-  },
-  {
-    delay: 0.9,
+    delay: 0.7,
     id: "anchors-homepage",
     title: "Anchors Homepage",
     thumbnail: thumbnailAnchors,
@@ -387,7 +317,7 @@ export const works: Work[] = [
   },
 
   {
-    delay: 1,
+    delay: 0.8,
     id: "bms",
     title: "Hyundai BMS",
     year: 2024,
@@ -416,5 +346,77 @@ export const works: Work[] = [
     tags: ["client project", "web app"],
     description:
       "A large-scale enterprise brand management platform for Hyundai Motor Company focused on digital asset management, content distribution, internal collaboration, and scalable corporate frontend architecture.",
+  },
+  {
+    delay: 0.9,
+    id: "feeds",
+    title: "Mecenate Feeds App",
+    thumbnail: thumbnailFeed,
+    tags: ["client project", "mobile app"],
+    year: 2026,
+    images: [
+      {
+        url: "/images/works/feeds.png",
+        alt: "gamehub",
+      },
+      {
+        url: "/images/works/feeds-1.png",
+        alt: "gamehub",
+      },
+      {
+        url: "/images/works/feeds-2.png",
+        alt: "gamehub",
+      },
+    ],
+    platform: "iOS / Android",
+    stack:
+      "TypeScript, React-Native, WebSocket, React-Query, Expo, Haptics, Blur, MobX",
+    description:
+      "A real-time social feed application built with React Native, Expo, MobX, React Query, and WebSockets featuring infinite scrolling, optimistic updates, live interactions, and scalable mobile architecture.",
+  },
+
+  {
+    delay: 1,
+    id: "bankcow-mobile",
+    title: "Bankcow Mobile App",
+    thumbnail: thumbnailBankcowMob,
+    tags: ["client project", "mobile app"],
+    year: 2022,
+    website:
+      "https://apps.apple.com/kr/app/%EB%B1%85%EC%B9%B4%EC%9A%B0-bankcow/id1588858780",
+    platform: "iOS / Android",
+    stack: "React-Native, TypeScript",
+    images: [
+      {
+        url: "/images/works/bankcow-mob-1.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-2.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-3.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-4.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-5.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-6.webp",
+        alt: "",
+      },
+      {
+        url: "/images/works/bankcow-mob-7.webp",
+        alt: "",
+      },
+    ],
+    description:
+      "A mobile fintech application for BankCow focused on Korean beef fractional investment, secure onboarding, asset tracking, investment progress, settlement status, and a polished mobile-first financial user experience.",
   },
 ];
