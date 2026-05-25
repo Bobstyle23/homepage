@@ -24,6 +24,7 @@ import {
   IoLogoLinkedin,
 } from "react-icons/io5";
 import { useTranslations } from "next-intl";
+import Timeline from "@/components/timeline";
 
 const Page = () => {
   const home = useTranslations("home");
@@ -80,10 +81,12 @@ const Page = () => {
           </Box>
         </Section>
         <Section delay={0.2}>
-          <Heading as={"h3"} variant={"section-title"}>
+          <Timeline />
+          {/*<Heading as={"h3"} variant={"section-title"}>
             {home("bioTitle")}
           </Heading>
-          <BioSection>
+          */}
+          {/*<BioSection>
             <BioYear>1996</BioYear>
             {bio("born")}
           </BioSection>
@@ -106,7 +109,7 @@ const Page = () => {
           <BioSection>
             <BioYear>2026 ~ </BioYear>
             {bio("freelance")}
-          </BioSection>
+          </BioSection>*/}
         </Section>
         <Section delay={0.3}>
           <Heading as={"h3"} variant={"section-title"}>
@@ -114,7 +117,8 @@ const Page = () => {
           </Heading>
           <Paragraph>{home("interests")}</Paragraph>
         </Section>
-        <Section delay={0.3}>
+
+        <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
             {home("webTitle")}
           </Heading>
