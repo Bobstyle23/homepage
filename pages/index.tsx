@@ -14,7 +14,7 @@ import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import { BioSection, BioYear } from "../components/bio";
+// import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 
 import {
@@ -25,10 +25,11 @@ import {
 } from "react-icons/io5";
 import { useTranslations } from "next-intl";
 import Timeline from "@/components/timeline";
+import NowSection from "@/components/now-section";
 
 const Page = () => {
   const home = useTranslations("home");
-  const bio = useTranslations("bio");
+  // const bio = useTranslations("bio");
 
   return (
     <Layout title="Home">
@@ -112,6 +113,9 @@ const Page = () => {
           </BioSection>*/}
         </Section>
         <Section delay={0.3}>
+          <NowSection />
+        </Section>
+        <Section delay={0.4}>
           <Heading as={"h3"} variant={"section-title"}>
             {home("interestsTitle")} 🤍
           </Heading>
