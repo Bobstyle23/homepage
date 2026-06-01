@@ -1,5 +1,5 @@
 export const now = {
-  location: { label: "📍 Location", value: "Namangan, Uzbekistan" },
+  location: { label: "📍 Location", value: "Seoul, South Korea" },
   lookingFor: {
     label: "👀 Looking for",
     value: "A good company with complex problems to help them solve",
